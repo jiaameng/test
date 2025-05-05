@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人履历</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">个人履历</div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#education">教育背景</a></li>
+                <li><a href="#experience">工作经历</a></li>
+                <li><a href="#skills">专业技能</a></li>
+                <li><a href="#portfolio">作品集</a></li>
+                <li><a href="#contact">联系方式</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <img src="images/profile.jpg" alt="个人照片" class="profile-img">
+                <h1>张三</h1>
+                <p class="title">全栈开发工程师</p>
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="wechat-link"><i class="fab fa-weixin"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>关于我</h2>
+            <div class="about-content">
+                <p>我是一名充满热情的全栈开发工程师，拥有5年的Web开发经验。专注于构建高性能、可扩展的Web应用程序。擅长前端技术栈（React、Vue.js）和后端开发（Node.js、Python）。热爱开源，积极参与技术社区，持续学习新技术。</p>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            <h2>教育背景</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>清华大学</h3>
+                        <p class="date">2018 - 2022</p>
+                        <p>计算机科学与技术</p>
+                        <p>本科学位</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <h2>工作经历</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>ABC科技有限公司</h3>
+                        <p class="date">2022 - 至今</p>
+                        <p>高级全栈开发工程师</p>
+                        <ul>
+                            <li>负责公司核心产品的前端架构设计与开发</li>
+                            <li>优化系统性能，提升用户体验</li>
+                            <li>带领团队完成多个重要项目</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>专业技能</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>前端开发</h3>
+                    <ul>
+                        <li>HTML5 / CSS3 / JavaScript</li>
+                        <li>React / Vue.js</li>
+                        <li>TypeScript</li>
+                        <li>Webpack / Vite</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>后端开发</h3>
+                    <ul>
+                        <li>Node.js / Express</li>
+                        <li>Python / Django</li>
+                        <li>MySQL / MongoDB</li>
+                        <li>RESTful API设计</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>其他技能</h3>
+                    <ul>
+                        <li>Git / GitHub</li>
+                        <li>Docker / Kubernetes</li>
+                        <li>CI/CD</li>
+                        <li>敏捷开发</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2>作品集</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/project1.jpg" alt="企业管理系统">
+                    <div class="portfolio-tags">
+                        <span class="portfolio-tag">React</span>
+                        <span class="portfolio-tag">Node.js</span>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>企业管理系统</h3>
+                        <p>基于React和Node.js的现代化企业管理系统，实现了用户管理、权限控制、数据可视化等功能。采用微服务架构，支持高并发访问。</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/project2.jpg" alt="电商平台">
+                    <div class="portfolio-tags">
+                        <span class="portfolio-tag">Vue.js</span>
+                        <span class="portfolio-tag">Python</span>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>电商平台</h3>
+                        <p>使用Vue.js和Python开发的电商平台，包含商品管理、订单处理、支付集成等功能。实现了响应式设计，支持多端访问。</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/project3.jpg" alt="数据可视化平台">
+                    <div class="portfolio-tags">
+                        <span class="portfolio-tag">D3.js</span>
+                        <span class="portfolio-tag">Express</span>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>数据可视化平台</h3>
+                        <p>基于D3.js的数据可视化平台，支持多种图表类型，实现了数据的实时更新和交互式展示。后端使用Express框架，支持大数据处理。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>联系方式</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>zhangsan@example.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+86 138 0000 0000</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 个人履历. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
